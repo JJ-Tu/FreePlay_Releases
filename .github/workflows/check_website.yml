@@ -33,3 +33,11 @@ jobs:
 
       - name: Run Python script
         run: python FreePlay_Releases.py
+        
+      - name: Commit and Push Changes
+        run: |
+          git config user.name "JJ-Tu"
+          git config user.email "johnnytu20@g.ucla.edu"
+          git add previous_section.txt
+          git commit -m "Update previous_section.txt"
+          git push
