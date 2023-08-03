@@ -7,6 +7,7 @@ on:
   schedule:
     - cron: "0 * * * 2"   # Every hour on Tuesdays
     - cron: "0 */6 * * *" # Every 6 hours on other days
+  workflow_dispatch:
 
 # permissions:
 #   contents: read
