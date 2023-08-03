@@ -73,9 +73,12 @@ def check_for_changes():
     # Fetch the current section
     current_section = get_relevant_section(url)
     
-    # Read the previous section from a file or database
-    with open("previous_section.txt", "r") as file:
-        previous_section = file.read()
+    # Read the previous section from a file or create an empty string if the file doesn't exist
+    try:
+        with open("previous_section.txt", "r") as file:
+            previous_section = file.read()
+    except FileNotFoundError:
+        previous_section = ""
     
     # Compare the current and previous sections
     if current_section != previous_section:
