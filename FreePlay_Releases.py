@@ -85,18 +85,12 @@ def check_for_changes():
         # Update the previous section with the current one
         with open("previous_section.txt", "w") as file:
             file.write(current_section)
-            print("Old file successfully written over!")
         
         # Trigger the notification
         send_notification()
     else:
         # For testing purposes. Delete after confirming functionality
         send_email("This is a test", "This is a test. No changes were detected at this time.", "jonathantu2000@gmail.com")
-
-    # More testing
-    with open("previous_section.txt", "r") as file:
-            test_read = file.read()
-    print(test_read)
 
 
 # Call the main function to check for changes
