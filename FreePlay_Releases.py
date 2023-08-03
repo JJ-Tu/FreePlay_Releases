@@ -3,17 +3,11 @@
 
 # # Email notifications
 
-# In[46]:
-
-
 import smtplib
 
 # Set up Gmail credentials
 gmail_username = "obv.thrw.awy.343@gmail.com"
 gmail_password = "bdxlzkgxxjckaxbi"
-
-
-# In[47]:
 
 
 def send_email(subject, body, recipient):
@@ -40,10 +34,6 @@ def send_email(subject, body, recipient):
         # Close the SMTP connection
         smtp_server.quit()
 
-
-# In[48]:
-
-
 def send_notification():
     subject = "New Tickets Released!"
     body = "New tickets are now available on the website."
@@ -52,9 +42,6 @@ def send_notification():
 
 
 # # Web scraping
-
-# In[49]:
-
 
 import requests
 from bs4 import BeautifulSoup
@@ -81,10 +68,6 @@ def get_relevant_section(url):
     else:
         return None
 
-
-# In[50]:
-
-
 # Main function to check for changes and trigger notifications
 def check_for_changes():
     # Fetch the current section
@@ -107,14 +90,8 @@ def check_for_changes():
         send_email("This is a test", "This is a test. No changes were detected at this time.", "jonathantu2000@gmail.com")
 
 
-# In[51]:
-
-
 # Call the main function to check for changes
 check_for_changes()
-
-
-# In[ ]:
 
 
 
