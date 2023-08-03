@@ -1,16 +1,13 @@
 # This workflow will install Python dependencies, run tests and lint with a single version of Python
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
 
-name: Python application
+name: Check FreePlay Website
 
 on:
   schedule:
     - cron: "0 * * * 2"   # Every hour on Tuesdays
     - cron: "0 */6 * * *" # Every 6 hours on other days
   workflow_dispatch:
-
-# permissions:
-#   contents: read
 
 jobs:
   check_website:
