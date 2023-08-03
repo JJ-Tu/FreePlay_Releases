@@ -102,6 +102,9 @@ def check_for_changes():
         
         # Trigger the notification
         send_notification()
+    else:
+        # For testing purposes. Delete after confirming functionality
+        send_email("This is a test", "This is a test. No changes were detected at this time.", "jonathantu2000@gmail.com")
 
 
 # In[51]:
