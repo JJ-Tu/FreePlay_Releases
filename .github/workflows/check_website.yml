@@ -19,6 +19,9 @@ jobs:
       
       - name: Print Working Directory
         run: pwd
+        
+      - name: List Files and Permissions
+        run: ls -la
 
       - name: Set up Python
         uses: actions/setup-python@v2
