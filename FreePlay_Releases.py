@@ -93,6 +93,11 @@ def check_for_changes():
         # For testing purposes. Delete after confirming functionality
         send_email("This is a test", "This is a test. No changes were detected at this time.", "jonathantu2000@gmail.com")
 
+    # More testing
+    with open("previous_section.txt", "r") as file:
+            test_read = file.read()
+    print(test_read)
+
 
 # Call the main function to check for changes
 check_for_changes()
