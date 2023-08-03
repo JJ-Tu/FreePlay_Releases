@@ -85,6 +85,7 @@ def check_for_changes():
         # Update the previous section with the current one
         with open("previous_section.txt", "w") as file:
             file.write(current_section)
+            print("Old file successfully written over!")
         
         # Trigger the notification
         send_notification()
