@@ -40,7 +40,7 @@ jobs:
           git config user.email "johnnytu20@g.ucla.edu"
           git add previous_section.txt
           git commit -m "Update previous_section.txt"
-          git push https://github.com/JJ-Tu/FreePlay_Releases.git HEAD:main
+          git push https://github.com/JJ-Tu/FreePlay_Releases HEAD:main
             # Use your GitHub repository URL instead of the example URL above
           env:
             PAT_TOKEN: ${{ secrets.PAT_TOKEN }}
