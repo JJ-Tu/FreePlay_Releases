@@ -84,6 +84,7 @@ def check_for_changes():
     if current_section != previous_section:
         # Update the previous section with the current one
         print(previous_section)
+        print(current_section)
         with open("previous_section.txt", "w") as file:
             file.write(current_section)
         
