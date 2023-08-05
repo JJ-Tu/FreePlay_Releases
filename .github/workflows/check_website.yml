@@ -28,10 +28,4 @@ jobs:
       - name: Run Python script
         run: python FreePlay_Releases.py
         
-      - name: Display contents of previous_section.txt
-        run: cat previous_section.txt
-
-      - name: Display contents of current_section
-        run: python -c "print('${{ steps.get_current_section.outputs.current_section }}')"
-        
 
