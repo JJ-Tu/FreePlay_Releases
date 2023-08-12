@@ -4,9 +4,9 @@
 name: Check FreePlay Website
 
 on:
-  schedule:
-    - cron: "0 7-9 * * 2"   # Every 15 minutes between 7:00 am and 10:00 am on Tuesdays
-    - cron: "0 * * * *"     # Every hour on other days
+  #schedule:
+    #- cron: "0 7-9 * * 2"   # Every 15 minutes between 7:00 am and 10:00 am on Tuesdays
+    #- cron: "0 * * * *"     # Every hour on other days
   workflow_dispatch:
 
 jobs:
