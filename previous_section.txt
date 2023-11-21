@@ -1,0 +1,31 @@
+
+<div class="row">
+<div class="col-sm-4" style="padding-bottom:10px;">
+<a href="/promo?code=FREEPLAY"><img src="https://res.cloudinary.com/dv3qcy9ay/image/upload/v1689369598/2023-2024/Prod_ACS/ACS-Title-600x600.jpg"/></a><br/></div>
+<div class="col-sm-8">
+<p><i>
+<b>A Christmas Story, The Musical</b></i><br/>
+Tuesday, December 5 at 8pm<br/>
+Wednesday, December 6 at 8pm<br/>
+Thursday, December 7 at 8pm<br/>
+Sunday, December 10 at 6:30pm
+
+<br/><br/><b>Performance Length: </b>2 hours and 35 minutes, including one intermission.</p>
+<p><a class="btn btn-primary" href="/promo?code=FREEPLAY" style="background-color:#92368e;">Reserve Now</a></p></div></div>
+<h3>Kirk Douglas Theatre</h3>
+<div class="row"> 
+<div class="col-sm-4" style="padding-bottom:10px;">
+<a href="/promo?code=FREEPLAY"><img src="https://res.cloudinary.com/dv3qcy9ay/image/upload/v1691439664/2022/Prod_DDDL/New%20Assets_230724/C2-DDDL-Thumbnail-480x360.jpg"></a><br>
+</div>
+
+<div class="col-sm-8">
+<p><a href="https://www.centertheatregroup.org/tickets/kirk-douglas-theatre/2022-23/our-dear-dead-drug-lord/"><i>
+<b>Our Dear Dead Drug Lord</i></b></a><br>
+<b>FreePlay Performances: </b><br>
+Tuesday, August 29 at 8pm<br>
+Wednesday, August 30 at 8pm<br>
+Thursday, August 31 at 8pm<br>
+
+<br><b>Performance Length: </b>90 minutes with no intermission</p></p>
+<p><a href="/promo?code=FREEPLAY" class="btn btn-primary" style="background-color:#92368e;">Reserve Now</a></p></div></div>
+
